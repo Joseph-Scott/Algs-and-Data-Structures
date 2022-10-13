@@ -18,7 +18,7 @@ function maxChar(str) {
     }
   }
 
-  console.log(charMap);
+  for (let char )
 }
 
 // const string = "Hello There!";

@@ -18,7 +18,14 @@ function maxChar(str) {
     }
   }
 
-  for (let char )
+  for (let char in charMap) {
+    if (charMap[char] > max) {
+      max = charMap[char];
+      maxChar = char;
+    }
+  }
+
+  return maxChar;
 }
 
 // const string = "Hello There!";

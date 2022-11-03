@@ -17,7 +17,11 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+function steps(n, row = 0) {
+  if (n === row) {
+    return;
+  }
+}
 
 module.exports = steps;
 

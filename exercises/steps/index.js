@@ -17,9 +17,14 @@
 //       '### '
 //       '####'
 
-function steps(n, row = 0) {
+steps(3);
+function steps(n, row = 0, stair = "") {
   if (n === row) {
     return;
+  }
+
+  if (n === stair.length) {
+    console.log(stair);
   }
 }
 

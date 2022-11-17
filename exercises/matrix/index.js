@@ -27,6 +27,7 @@ function matrix(n) {
   let endColumn = n - 1;
   let startRow = 0;
   let endRow = n - 1;
+  while (startColumn <= endColumn && startRow <= endRow) {}
 }
 
 module.exports = matrix;
